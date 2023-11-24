@@ -1,0 +1,25 @@
+/* You can add CSS styles here to enhance the appearance of your pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005477;
+}

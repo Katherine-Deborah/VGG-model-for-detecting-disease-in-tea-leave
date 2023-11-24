@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="main.js"></script>
+    <title>Tea Leaves Disease Prediction</title>
+</head>
+<body>
+    <h1>Tea Leaves Disease Prediction</h1>
+    <p>Upload an image to predict the disease affecting tea leaves.</p>
+    <form action="/predict_image" method="post" enctype="multipart/form-data">
+        <label for="image">Choose an image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required><br>
+        <input type="submit" value="Predict">
+    </form>
+    <div id="prediction-result"></div>
+    <button onclick="location.href='index.html'">Home</button>
+    <button onclick="location.href='about.html'">About</button>
+    <button onclick="location.href='teahome.html'">Tea Disease Info</button>
+</body>
+</html>
